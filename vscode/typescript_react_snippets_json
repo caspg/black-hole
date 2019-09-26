@@ -1,0 +1,24 @@
+{
+	"css in jsx": {
+		"prefix": "sjx",
+		"body": [
+			"<style jsx>{`\n\t$0\n`}</style>"
+		]
+	},
+	"component framework": {
+		"prefix": "rc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"interface ${TM_FILENAME_BASE}Props {",
+			"",
+			"}",
+			"",
+			"export function ${TM_FILENAME_BASE}(props: ${TM_FILENAME_BASE}Props) {",
+			"  return (",
+			"",
+			"  )",
+			"}"
+		]
+	}
+}
